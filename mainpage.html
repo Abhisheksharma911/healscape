@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="hospital.css">
 </head>
+
 <body>
     <div class="Container">
         <nav>
             <div class="Logo">
-                <h1>Healscape</h1>
+                <h1 style="font-size: 60px;">Healscape</h1>
             </div>
+            <i id="bar" class="fa-solid fa-xmark"></i>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="#doctor">Doctor's</a></li>
@@ -20,69 +23,68 @@
                 <li><a href="contact">Contact us</a></li>
             </ul>
         </nav>
-    <div class="main">
-        <div class="maintext">
-            <h1>The Hospital that <br>
-            Care for you</h1>
-            <h3>Best team's</h3>
-            <button>Show more</button>
+        <div class="main">
+            <div class="maintext">
+                <h1 style="
+    font-size: xxx-large;
+">The Hospital that <br>
+                    Care for you</h1><br>
+                <h3>Best team's</h3><br>
+                <button>Show more</button>
+            </div>
+            <img style="border-radius: 20px;" src="images/mains.jpg" alt="">
         </div>
-        <img src="" alt="">
-    </div>
 
-    <div id="doctor">
-        <div class="head">
-            <h1>Our Doctor's</h1>
-        </div>
-        <div class="teams"></div>
-            <div class="card">
-                <img src="" alt="">
-                <p>alexa</p>
-                <p></p>
+        <div id="doctor">
+            <div class="head">
+                <h1>Our Doctor's</h1>
             </div>
-        
+            <div class="teams"></div>
+            <div style="display: flex; justify-content: space-between ; align-items: center; padding: 0px 16px;">
+                <div class="card">
+                    <img src="images/doc1.jpg" alt="">
+                    <p>Dr.Vivek Soni</p>
+                    <p></p>
+                </div>
 
-        
-            <div class="card">
-                <img src="" alt="">
-                <p>alexa</p>
-                <p></p>
-            </div>
-        
 
-        
-            <div class="card">
-                <img src="" alt="">
-                <p>alexa</p>
-                <p></p>
+
+                <div class="card">
+                    <img src="images/doc2.jpg" alt="">
+                    <p>Dr.Naina Sharma</p>
+                    <p></p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="images/doc3.jpg" alt="">
+                    <p>Dr.Rajesh Agrawal</p>
+                    <p></p>
+                </div>
             </div>
-        
         </div>
     </div>
 
     <div id="speciality">
+
         <div class="head">
             <h1>Our Speciality's</h1>
         </div>
-        <div class="speciality">
+        <div class="specialityImage">
             <div class="spcard">
-                <img src="" alt="">
+                <img src="images/Knee1.jpg" alt="">
                 <p>Knee Surgery</p>
                 <p></p>
             </div>
 
             <div class="spcard">
-                <img src="" alt="">
-                <p>Knee Surgery</p>
-                <p></p>
-            </div>
-
-            <div class="spcard">
-                <img src="" alt="">
+                <img src="images/Knee2.jpg" alt="">
                 <p>Knee Surgery</p>
                 <p></p>
             </div>
         </div>
+
     </div>
 
     <div id="Patient">
@@ -91,83 +93,92 @@
         </div>
         <div class="reviews">
             <div class="PatientReview">
-                <img src="" alt="">
-                <img src="" alt="">
-
+                <img src="./images/patient1.jpg" alt="patient1">
+                <img src="./images/patient2.jpg" alt="patient2">
+                <img src="./images/patient3.jpg" alt="patient3">
+                <img src="./images/patient4.jpg" alt="patient4">
+                <img src="./images/patient5.jpg" alt="patient5">
+                <img src="./images/patient6.jpg" alt="patient6">
             </div>
+        </div>
 
+        
+            <!-- <div class="reviews">
+                <div class="PatientReview">
+            </div>
+            
             <div class="reviews">
                 <div class="PatientReview">
-                    <img src="" alt="">
-                    <img src="" alt="">
-
-                </div>
-
-                <div class="reviews">
-                    <div class="PatientReview">
-                        <img src="" alt="">
-                        <img src="" alt="">
 
                     </div>
+                </div>
+            </div> -->
+
+            <div id="contact">
+                <div class="head">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <h1>Connect With Us</h1>
+                    <input type="text" placeholder="Enter Mail" id="Mail">
+                    <input type="text" placeholder="Enter Password " id="pass">
+                    <button id="connectBtn"> Connect</button>
+                </div>
+                <div class="footer">
+                    <div class="text">
+                        <h3>About Us</h3><br>
+                        <p>24*7 Hours</p>
+                        <p>Top Doctors</p>
+                        <p>Best Care</p>
+                        <p>Patient</p>
+                        <p></p>
+
+                    </div>
+                    <div class="text">
+                        <h3>Speciality</h3><br>
+                        <p>Knee surgery</p>
+                        <p>Gynecologit</p>
+                        <p>Neurologist</p>
+                        <p>Cardiologist</p>
+                        <p>Orthopedic</p>
+                        <p>Pediatricians</p>
+                        <p></p>
+                    </div>
+                
+                    <div class="text">
+                        <h3>Best Teams</h3><br>
+                        <p>Doctors</p>
+                        <p> Nursing</p>
+                        <p>Staff</p>
+                        <p>Hospital</p>
+                        <p></p>
+
+                    </div>
+
+
+                    <div class="text">
+                        <h3>Contact</h3><br>
+                        <p>Healscape@redmail.com</p>
+                        <p>+91 7771400012</p>
+                        <p>+91 7771840003</p>
+                        <p>104/7 Phoenix Tower,<br> Near MG Road ,Indore<br>Madhya Pradesh 452001</p>
+
+                    </div>
+                </div>
+            
+                <div class="detail">
+                    <button id="closeBtn">
+                        <i> class="fa-solid fa-xmark"></i>
+                    </button>
+                    <div class="content">
+                      <img src="" alt="">
+                      <div class="contentText">
+                        <h1>Alexa Zoan</h1>
+                        <p></p>
+                      </div>  
+                    </div>
+                </div>
         </div>
-    </div>
-
-    <div id="contact">
-        <div class="head">
-            <h1>Contact Us</h1>
-        </div>
-        <div class="contact">
-            <h1>Connect With Us</h1>
-            <input type="text" placeholder="Enter Mail" id="Mail">
-            <input type="text" placeholder="Enter Password " id="pass">
-            <button id="connectBtn"> Connect</button>
-        </div>
-        <div class="footer">
-            <div class="text">
-                <h3>About Us</h3>
-                <p>24Hours</p>
-                <p>Top Doctors</p>
-                <p>Best Care</p>
-                <p>Patient</p>
-                <p></p>
-
-            </div>
-            
-            
-            <div class="text">
-                <h3>Speciality</h3>
-                <p>Knee surgery</p>
-                <p>Spin surgery</p>
-                <p>Leg surgery</p>
-                <p> Tandon surgery</p>
-                <p></p>
-
-            </div>
-
-            
-            <div class="text">
-                <h3>Best Teams</h3>
-                <p>Doctors</p>
-                <p> Nursing</p>
-                <p>Staff</p>
-                <p>Hospital</p>
-                <p></p>
-
-            </div>
-
-            
-            <div class="text">
-                <h3>Address</h3>
-                <p>Near MG Road</p>
-                <p>Galaxy Care</p>
-                <p>333-09093</p>
-                <p>09-883-090</p>
-            
-
-            </div>
-
-
-        </div>
-    </div>
 </body>
+
 </html>
